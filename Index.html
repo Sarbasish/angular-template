@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="Approuter">
+<head>
+    <title>Angular JS Routing</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />    
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left-block">
+            <div ng-include="'templates/nav.html'"></div>
+             
+       </div>
+        <div class="right-block">
+            <div ui-view></div>
+        </div>
+    </div>
+</body>
+    <script src="Js/main.js"></script>
+</html>
+

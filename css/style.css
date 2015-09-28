@@ -1,0 +1,133 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* common page css */
+* {
+    box-sizing:border-box;
+}
+body {
+        font-size:16px;
+        line-height:25px;
+        background-color:#808080;
+}
+p {
+    font-size:16px;
+        line-height:25px;
+        margin-bottom:15px;
+}
+
+.container {
+    width:1076px;
+    margin:auto;
+    min-height:800px;
+    background-color:#fff;
+}
+h1 {
+        font-size:26px;
+        line-height:35px;
+        margin-bottom:15px;
+}
+h2 {
+    font-size:24px;
+    line-height:24px;
+    margin-bottom:15px;
+}
+h3 {
+    font-size:20px;
+    line-height:24px;
+    margin-bottom:15px;
+}
+
+.left-block {
+       width:18%;
+       display:inline-block;
+       border-right:4px solid blue;
+       padding:20px;
+       vertical-align:top;
+       min-height:700px;
+       margin-top:20px;
+}
+    .left-block ul li {
+        display:block;
+        margin-bottom:10px;
+    }
+        .left-block ul li a {
+            font-size:15px;
+            font-weight:700;
+            color:#000;
+            text-decoration:none;
+            text-transform:uppercase;
+
+        }
+.right-block {
+   display:inline-block;
+    width:81%;
+    padding:20px;
+    vertical-align:top;
+    margin-top:20px;
+}
+.sign {
+        font-size:13px;
+        color:#000;
+        float:left;
+        margin-top:100px;
+        
+}
+    .sign div {
+            font-size:24px;
+            color:#150909
+    }
+@media only screen and (max-width: 1076px) {
+    .container {
+            width:100%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .left-block {
+            width:40%;
+    }
+    .right-block {
+        width:59%;
+    }
+}
